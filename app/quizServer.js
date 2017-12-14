@@ -127,6 +127,23 @@ exports.showHighScoreFor = function(quizName, req) {
     }
     return responseJson;
 };
+function saveHighScore(req) {
+    "use strict";
+    try {
+        let highScore = JSON.parse(fs.readFileSync(HIGH_SCORE_FILE, 'utf8'));
+        highScore.tables = highScore.tables || {};
+        highScore.tables.highscore_per_quiz = highScore.tables.highscore_per_quiz || {};
+        highScore.tables.highscore_per_quiz[req.session.quizName] = highScore.tables.highscore_per_quiz[req.session.quizName] || {};
+        highScore.tables.highscore_per_quiz[req.session.quizName][req.user.email] =  highScore.tables.highscore_per_quiz[req.session.quizName][req.user.email] || {};
+        highScore.tables.highscore_per_quiz[req.session.quizName][req.user.email] = updateUserScoreIfBetter(highScore.tables.highscore_per_quiz[req.session.quizName][req.user.email], req.session.score);
+
+        console.log(JSON.stringify(highScore));
+        fs.writeFileSync(HIGH_SCORE_FILE, JSON.stringify(highScore), 'utf-8');
+    } catch (e) {
+        console.error(e);
+        console.error("Exception while trying to update highscore table");
+    }
+}
 
 //Adapted from https://stackoverflow.com/questions/11552533/quiz-multiple-choice-field-for-content-node-to-create-quizzes
 function updateUserScoreIfBetter(oldScoreObject, newScore) {

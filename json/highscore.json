@@ -1,6 +1,1 @@
-{"tables":{"highscore_per_quiz":
-{"History Knowledge Quiz":
-{"hi":{"score":40,"dateTime":"2017-12-13 15:20"},"joe":{"score":20,"dateTime":"2017-12-13 16:22"},"pam":{"score":40,"dateTime":"2017-12-13 19:03"}},
-"General Knowledge Quiz":
-{"hi":{"score":50,"dateTime":"2017-12-13 10:34"},"joe":{"score":20,"dateTime":"2017-12-13 10:45"},"pam":{"score":20,"dateTime":"2017-12-13 10:48"}},
-"Math Knowledge Quiz":{"hi":{"score":10,"dateTime":"2017-12-11 03:51"}}}}}
+{"tables":{"highscore_per_quiz":{"History Knowledge Quiz":{"hi":{"score":40,"dateTime":"2017-12-13 15:20"},"joe":{"score":20,"dateTime":"2017-12-13 16:22"},"pam":{"score":40,"dateTime":"2017-12-13 19:03"}},"General Knowledge Quiz":{"hi":{"score":50,"dateTime":"2017-12-13 10:34"},"joe":{"score":20,"dateTime":"2017-12-13 10:45"},"pam":{"score":20,"dateTime":"2017-12-13 10:48"}},"Math Knowledge Quiz":{"hi":{"score":20,"dateTime":"2017-12-14 03:36"}}}}}
