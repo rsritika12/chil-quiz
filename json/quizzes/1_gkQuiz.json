@@ -1,0 +1,36 @@
+{
+	"name": "General Knowledge Quiz",
+	"questions": {
+		"0": {
+			"question": "What sweet food made by bees using nectar from flowers?",
+			"a": "Honey",
+			"b": "Maple Syrup",
+			"c": "Water"
+		},
+		"1": {
+			"question": "Which country is home to the kangaroo?",
+			"a": "India",
+			"b": "Jamaica",
+			"c": "Australia"
+		},
+		"2": {
+			"question": "From what tree do acorns come?",
+			"a": "Palm",
+			"b": "Oak",
+			"c": "Pine"
+		},
+		"3": {
+			"question": "How many colors are in a rainbow?",
+			"a": "3",
+			"b": "7",
+			"c": "8"
+		},
+		"4": {
+			"question": "Which Italian city is famous for its leaning tower?",
+			"a": "London",
+			"b": "Paris",
+			"c": "Pisa"
+		}
+
+	}
+}

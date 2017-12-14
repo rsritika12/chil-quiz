@@ -1,0 +1,36 @@
+{
+	"name": "Math Knowledge Quiz",
+	"questions": {
+		"0": {
+			"question": "5*5 = ?",
+			"a": "15",
+			"b": "5",
+			"c": "25"
+		},
+		"1": {
+			"question": "10/2 = ?",
+			"a": "5",
+			"b": "10",
+			"c": "2"
+		},
+		"2": {
+			"question": "(17+5) - 15 = ?",
+			"a": "7",
+			"b": "11",
+			"c": "9"
+		},
+		"3": {
+			"question": "How many factors do prime numbers have?",
+			"a": "infinite",
+			"b": "2",
+			"c": "0"
+		},
+		"4": {
+			"question": "90/10 - 9 = ?",
+			"a": "9",
+			"b": "10",
+			"c": "0"
+		}
+
+	}
+}

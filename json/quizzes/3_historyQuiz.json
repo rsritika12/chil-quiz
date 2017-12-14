@@ -1,0 +1,36 @@
+{
+  "name": "History Knowledge Quiz",
+  "questions": {
+    "0": {
+      "question": "Who was the first president of USA?",
+      "a": "George Washington",
+      "b": "Abe Lincoln",
+      "c": "Ben Franklin"
+    },
+    "1": {
+      "question": "During which year did World War I begin??",
+      "a": "1914",
+      "b": "1918",
+      "c": "1930"
+    },
+    "2": {
+      "question": "Who discovered America?",
+      "a": "Hernando Cortes",
+      "b": "Christopher Columbus",
+      "c": "Queen Victoria"
+    },
+    "3": {
+      "question": "The first African American president was?",
+      "a": "Bill Clinton",
+      "b": "Donald Trump",
+      "c": "Barack Obama"
+    },
+    "4": {
+      "question": "How many senators are in congress?",
+      "a": "50",
+      "b": "100",
+      "c": "10"
+    }
+
+  }
+}
